@@ -1,0 +1,208 @@
+.body{
+	font-family:"Microsoft JhengHei";
+}
+footer{
+	text-align: center;
+  }
+/*left*/
+.aria-selected{
+    padding-top: 32px;
+}
+.tab{
+    border: 3px solid rgba(217, 94, 64, 0.6);
+}
+.box-area{
+    border-radius: 3%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+/*left btn*/
+#v-pills-home{
+    padding-top: 10px;
+}
+#v-pills-home-tab{
+    background-color: #ffffff;
+    color: #D95E40;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.07);
+    
+}
+#v-pills-home-tab:focus{
+    background-color: #D95E40;
+    color: #ffffff;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.3);
+}
+#v-pills-office-tab{
+    background-color: #ffffff;
+    color: #10ad57;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.07);
+    margin-top: 30px;
+    
+}
+#v-pills-office-tab:focus{
+    background-color: #10ad57;
+    color: #ffffff;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.3);
+}
+
+/*超商*/
+.box-area .row{
+    margin-bottom: 0px;
+}
+.box-area .col-sm-6{
+    background-color: #ffffff;
+    border-radius: 3%;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0;
+}
+.box-area .col-sm-12{
+    background-color: #ffffff;
+    border-radius: 3%;
+    margin: 0px;
+    padding-top: 10px
+}
+/*超商領取+預訂方式標題*/
+.box-area .title{
+    background-color: #FAEBE7;
+    border-radius: 3%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+/*梯次標題*/
+.box-area .title-1{
+    background-color: #FAEBE7;
+    border-radius: 3%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+/*梯次領取時間*/
+.box-area .online-time{
+    margin: 0;
+    margin-top: 2.5px;
+	padding-left: 30px;
+}
+/*超商營業*/
+.box-area .online-time-2{
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	padding-left: 30px;
+}
+/*攜帶*/
+.box-area .online-time-3{
+    margin: 0;
+    margin-top: 10px;
+	padding-left: 30px;
+}
+
+/*office*/
+.box-area-2 .row{
+    margin-bottom: 0px;
+}
+.box-area-2 .col-sm-6{
+    background-color: #ffffff;
+    border-radius: 3%;
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.box-area-2 .col-sm-12{
+    background-color: #ffffff;
+    border-radius: 3%;
+    padding: 0;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+/*梯次標題*/
+.box-area-2 .title-1{
+    background-color: #cff3d0;
+    border-radius: 3%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+	margin-top: 20px;
+}
+/*梯次領取時間*/
+.box-area-2 .online-time{
+    margin: 0;
+    margin-top: 2.5px;
+}
+/*超商營業*/
+.box-area-2 .online-time-2{
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*攜帶*/
+.box-area-2 .online-time-3{
+    margin: 0;
+    margin-top: 10px;
+}
+
+
+/*btn effect*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.buttons {
+    margin: 2%;
+}
+.buttons-2 {
+    margin: 0%;
+}
+.buttons-office {
+    margin: 1%;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+/*orange*/
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+/*green*/
+.btn-hover.color-2 {
+    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+.btn-hover.color-3 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}

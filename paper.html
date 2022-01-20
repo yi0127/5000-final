@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>振興5倍劵</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/custom_paper.css" rel="stylesheet" />
+    <link href="css/paper.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./img/Logo.png" alt="" width="75" height="32"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  active">紙本五倍劵</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./bonus.html">加碼劵</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="btn btn-outline-danger" type="submit">ENG</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </nav>
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-md-7 jumbo-text">
+            <h1 class="tagline">Food Sense</h1>
+            <p class="lead">A wonderful serenity has taken possession of my entire soul</p>
+            <a href="#" class="btn btn-default btn-lg">Read More</a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-auto"></div>
+        <div class="col-sm-3 aria-selected">
+          <!-- Tab navs -->
+          <div
+            class="nav flex-column nav-pills text-center"
+            id="v-pills-tab"
+            role="tablist"
+            aria-orientation="vertical"
+          >
+          <a
+              class="nav-link active"
+              id="v-pills-home-tab"
+              data-mdb-toggle="pill"
+              href="#v-pills-home"
+              role="tab"
+              onclick="getfocus()"
+              autofocus
+              >線上預購</a
+            >
+            
+            <a
+              class="nav-link"
+              id="v-pills-office-tab"
+              data-mdb-toggle="pill"
+              href="#v-pills-office"
+              role="tab"
+              onclick="losefocus()"
+              >郵局預約</a
+            >
+            <script>
+              function getfocus(){
+                document.getElementById("v-pills-home-tab").focus();
+              }
+              function losefocus(){
+                document.getElementById("v-pills-office-tab").focus();
+              }
+            </script>
+          </div>
+          <!-- Tab navs -->
+        </div>
+      <div class="col-sm-auto"></div>
+        <div class="col-sm-8">
+          <!-- Tab content -->
+          <div class="tab-content" id="v-pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="v-pills-home"
+              role="tabpanel"
+              aria-labelledby="v-pills-home-tab"
+            >
+            <div class="box-area">
+              <div class="row">
+                <div class="col-sm-6 text-center ">
+                  <h3 class="title-1"><strong>第一梯次</strong></h3>
+                </div>
+                <div class="col-sm-6 text-left">
+                  <p class="online-time">預定：9/25~10/1</p>
+                  <p class="online-time">領取：10/8~10/21</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 text-center online-title">
+                  <h3 class="title-1"><strong>第二梯次</strong></h3>
+                </div>
+                <div class="col-sm-6 text-left">
+                  <p class="online-time">預定：10/25~10/31</p>
+                  <p class="online-time">領取：11/8~11/21</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 text-center">
+                  <h3 class="title"><strong>超商領取時間</strong></h3>
+                </div>
+                <div class="col-sm-6 text-left"><p class="online-time-2">09：00~22:00</p></div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 text-center">
+                  <h3 class="title"><strong>預訂方式</strong></h3>
+                </div>
+                <div class="col-sm-6 text-left"><p class="online-time-3">健保卡、健保快易通OTP、自然人憑證、</p></div>
+              </div>
+              <div class="row">
+                <div class=" col-sm-12 buttons text-center">
+                  <button class="btn-hover color-1" onclick="paperFunction()">開始預訂</button>
+                  <script>
+                    function paperFunction() {
+                      window.open("https://hph.5000.gov.tw/hpg/webLogin?token=paper&language=ch");
+                    }
+                    </script>
+                </div>
+            </div>
+            </div>
+            </div>
+            <!-- office -->
+            <div
+              class="tab-pane fade"
+              id="v-pills-office"
+              role="tabpanel"
+              aria-labelledby="v-pills-office-tab"
+            >
+            <div class="box-area-2">
+              <div class="row">
+                <div class="col-sm-6 text-center ">
+                  <h3 class="title-1"><strong>我要預約</strong></h3>
+                  <p>1~5份</p>
+                </div>
+                <div class="col-sm-6 text-center">
+                  <div class="buttons-office text-center">
+                    <button class="btn-hover color-2" onclick="officeFunction()" >開始預訂</button>
+                    <script>
+                      function officeFunction() {
+                        window.open("https://subservices.post.gov.tw/post/internet/5000/reservation/reserve_few_term.jsp");
+                      }
+                      </script>
+                  </div>
+                </div>
+              </div>
+              <hr/>
+              <div class="row">
+                <div class="col-sm-6 text-center online-title">
+                  <h3 class="title-1"><strong>大宗預約</strong></h3>
+                  <p>6份以上</p>
+                </div>
+                <div class="col-sm-6 text-center">
+                  <div class="buttons-office text-center">
+                    <button class="btn-hover color-2" onclick="officebFunction()">開始預訂</button>
+                    <script>
+                      function officebFunction() {
+                        window.open("https://subservices.post.gov.tw/post/internet/5000/reservation/reserve_bulk_term.jsp");
+                      }
+                      </script>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                <div class="buttons-2 text-center">
+                    <button class="btn-hover color-3" onclick="searchFunction()">預約查詢</button>
+                    <script>
+                      function searchFunction() {
+                        window.open("https://subservices.post.gov.tw/post/internet/5000/reservation/query_few_step1.jsp");
+                      }
+                      </script>
+                </div>
+              </div>
+              </div>
+              <div class="col-sm-auto"></div>
+            </div>
+            </div>
+          </div>
+        </div>
+          <!-- Tab content -->
+
+    </div>
+    <div class="to_customer">
+      <a class="bbbtn" href="index.html" data-bs-toggle="tooltip" data-bs-placement="left" title="客服中心"><svg class="svg-icon" viewBox="0 0 20 20">
+        <path class="icon" d="M17.659,3.681H8.468c-0.211,0-0.383,0.172-0.383,0.383v2.681H2.341c-0.21,0-0.383,0.172-0.383,0.383v6.126c0,0.211,0.172,0.383,0.383,0.383h1.532v2.298c0,0.566,0.554,0.368,0.653,0.27l2.569-2.567h4.437c0.21,0,0.383-0.172,0.383-0.383v-2.681h1.013l2.546,2.567c0.242,0.249,0.652,0.065,0.652-0.27v-2.298h1.533c0.211,0,0.383-0.172,0.383-0.382V4.063C18.042,3.853,17.87,3.681,17.659,3.681 M11.148,12.87H6.937c-0.102,0-0.199,0.04-0.27,0.113l-2.028,2.025v-1.756c0-0.211-0.172-0.383-0.383-0.383H2.724V7.51h5.361v2.68c0,0.21,0.172,0.382,0.383,0.382h2.68V12.87z M17.276,9.807h-1.533c-0.211,0-0.383,0.172-0.383,0.383v1.755L13.356,9.92c-0.07-0.073-0.169-0.113-0.27-0.113H8.851v-5.36h8.425V9.807z"></path>
+      </svg></a>
+    </div>
+      <hr />
+      <footer>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <p>服務條款 | 資訊安全政策 | 隱私權公告</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mdb.min.js"></script>
+
+  </body>
+</html>
